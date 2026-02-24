@@ -5,11 +5,12 @@ type InputTypes = "text" | "email" | "password";
 
 @Component({
   selector: 'app-primary-input',
+  standalone: true,
   imports: [
     ReactiveFormsModule
   ],
   templateUrl: './primary-input.component.html',
-  styleUrl: './primary-input.component.scss',
+  styleUrls: ['./primary-input.component.scss'],
 })
 export class PrimaryInputComponent {
 
@@ -19,6 +20,6 @@ export class PrimaryInputComponent {
 
   @Input() placeHolder: string = "";
 
-  @Input()  label: string = "";
+  @Input() label: string = "";
 
 }

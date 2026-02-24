@@ -9,10 +9,12 @@
   .input-content{
     width: 100%;
     border-radius: 8px;
+    display: flex;
 
     .icon{
       padding: 12px;
       background-color: $primary-color;
+      border-radius: 0 8px 8px 0;
 
 
       img {
@@ -22,7 +24,7 @@
 
     input {
       border: none;
-      border-radius: 8px;
+      border-radius: 8px 0 0 8px;
       background-color: $gray-secondary-background;
 
 

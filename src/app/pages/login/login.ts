@@ -5,13 +5,14 @@ import {PrimaryInputComponent} from '../../components/primary-input/primary-inpu
 
 @Component({
   selector: 'app-login',
+  standalone: true,
   imports: [
     DefaultLoginLayout,
     ReactiveFormsModule,
     PrimaryInputComponent
   ],
   templateUrl: './login.html',
-  styleUrl: './login.scss',
+  styleUrls: ['./login.scss'],
 })
 export class Login {
 
