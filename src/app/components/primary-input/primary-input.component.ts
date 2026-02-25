@@ -16,7 +16,7 @@ export class PrimaryInputComponent {
 
   @Input() type: InputTypes = "text";
 
-  @Input() formControlName: string = "";
+  @Input() fcName: string = "";
 
   @Input() placeHolder: string = "";
 
